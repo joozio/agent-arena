@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #00ffff;
+  --color-muted: #777788;
+  --color-primary: #f0f0f0;
+  --color-secondary: #888899;
+  --color-void: #000000;
+  --color-surface: #0a0a0f;
+  --color-elevated: #111118;
+  --color-subtle: #222238;
+}
+
+:root {
+  --accent-glow: rgba(0, 255, 255, 0.25);
+  --accent-dim: #0088aa;
+  --border-subtle: #222238;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000000;
+  color: #f0f0f0;
+  font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-pixel {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+/* Utility Classes */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--border-subtle);
+  transition: border-color 0.2s;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background: var(--color-accent);
+  color: #000000;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--accent-dim);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-secondary);
+  border: 1px solid var(--border-subtle);
+  padding: 0.5rem 1.25rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.text-glow {
+  text-shadow: 0 0 20px var(--accent-glow);
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
