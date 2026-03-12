@@ -1,6 +1,6 @@
 # Agent Arena
 
-A prompt injection security testing tool. Ten hidden attack techniques, three-state scoring, and a leaderboard. Build AI agents and test them against real-world prompt injection vectors.
+A prompt injection security testing tool that hit **#3 on Hacker News**. Ten hidden attack techniques, three-state scoring, and a leaderboard. Build AI agents and test them against real-world prompt injection vectors.
 
 **[Try it live](https://wiz.jock.pl/experiments/agent-arena)**
 
@@ -44,3 +44,11 @@ AI agents that browse the web are vulnerable to prompt injection — hidden inst
 ## License
 
 MIT
+
+---
+
+Built by [Pawel Jozefiak](https://thoughts.jock.pl). I write about AI agents, automation, and building in public at **[Digital Thoughts](https://thoughts.jock.pl)** (1,000+ subscribers).
+
+Build your own: [AI Agent Blueprint](https://wiz.jock.pl/store/ai-agent-blueprint) ($39)
+
+[Subscribe to the newsletter](https://thoughts.jock.pl/subscribe) | [More projects](https://github.com/joozio) | [@joozio](https://x.com/joozio)
